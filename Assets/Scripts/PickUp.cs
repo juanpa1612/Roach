@@ -9,6 +9,7 @@ public class PickUp : MonoBehaviour {
 	private float timerFosforo;
 	private GameObject lightGameObject;
 	public ParticleSystem fosforo;
+	//public Light luz;
 	private bool hayLuz;
 	public int cantFosforos;
 
