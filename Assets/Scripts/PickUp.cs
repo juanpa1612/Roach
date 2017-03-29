@@ -41,7 +41,7 @@ public class PickUp : MonoBehaviour {
 			lightGameObject.transform.position = fosforo.transform.position;
 		}
         Collect();
-		if (Input.GetKeyDown(KeyCode.Z)) {
+		if (Input.GetKeyDown(KeyCode.F)) {
 			CrearFosforo ();
 		}
 		if (timerFosforo <= 0) {
